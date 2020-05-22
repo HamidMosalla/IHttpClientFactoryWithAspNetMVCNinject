@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace IHttpFactoryWithAspNetMVCNinject.Services
 {
-    public class UrlStringReader
+    public class UrlStringReader : IUrlStringReader
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
